@@ -12,5 +12,5 @@ service:
 postgresql:
   enabled: true
   primary:
-  persistence:
-    storageClass: "gp2"
+    persistence:
+      storageClass: "gp2"
