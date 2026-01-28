@@ -11,3 +11,6 @@ service:
   type: LoadBalancer
 postgresql:
   enabled: true
+  primary:
+  persistence:
+    storageClass: "gp2"
