@@ -1,0 +1,13 @@
+replicaCount: 1
+app:  
+  namespace: bestarion
+  name: bestarion
+  port: 3032
+  image_pull_policy: IfNotPresent
+image:
+  name: 065140405948.dkr.ecr.ap-southeast-1.amazonaws.com/bestarion-demo-ecr
+  tag: "35afdcfc"
+service:
+  type: LoadBalancer
+postgresql:
+  enabled: true
