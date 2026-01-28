@@ -9,8 +9,3 @@ image:
   tag: "1a173868"
 service:
   type: LoadBalancer
-postgresql:
-  enabled: true
-  primary:
-    persistence:
-      storageClass: "gp2"

@@ -9,5 +9,3 @@ image:
   tag: "$IMAGE_TAG"
 service:
   type: LoadBalancer
-postgresql:
-  enabled: true
