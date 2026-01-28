@@ -1,6 +1,6 @@
 replicaCount: 1
 app:  
-  namespace: bestarion
+  namespace: default
   name: bestarion
   port: 3032
   image_pull_policy: IfNotPresent
