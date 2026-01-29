@@ -6,6 +6,6 @@ app:
   image_pull_policy: IfNotPresent
 image:
   name: 065140405948.dkr.ecr.ap-southeast-1.amazonaws.com/bestarion-demo-ecr
-  tag: "8e568fdc"
+  tag: "3b30245e"
 service:
   type: LoadBalancer
